@@ -138,4 +138,10 @@ button {
  .modal-body h2{
    font-weight: bold;
  }
+ #contactModal{
+  margin-top: 9%;
+ }
+ .modal-backdrop{
+  background: #000000a1;
+ }
  
