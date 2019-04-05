@@ -1,12 +1,13 @@
 body {
-    background-image: url(../assets/apple-watch-desk-equipment-876467.jpg);
+    background-image: url(../assets/bloom-blossom-flora-612807.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 1100px;
 }
 .navbar{
-    height: 95px;
+  height: 70px;
+  border-bottom: 2px black solid;
 }
 .navbar-nav{
     margin-left: 70%;
@@ -18,12 +19,12 @@ body {
     font-weight: bold;
     text-shadow: 5px 0px 8px #0a0a0aab;
 }
-.img-thumbnail{
-    height: 400px;
-    margin: 30px;
-    margin-top: 50px;
-    margin-left: 50px;
-    box-shadow: 1px -1px 11px 11px #04040447;
+.img-thumbnail {
+  height: 300px;
+  margin: 30px;
+  margin-top: 70px;
+  margin-left: 50px;
+  box-shadow: 1px -1px 11px 11px #04040447;
 }
 #firstContainer{
     margin-top: 90px;
@@ -39,15 +40,14 @@ body {
 
 }
 footer {
-    font-family: 'ZCOOL XiaoWei', serif;
-    background: white;
-    font-size: 20px;
-    position: fixed;
-    text-align: center;
-    padding: 10px;
-    bottom: 0px;
-    width: 100%;
-    height: 50px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  background: white;
+  font-size: 20px;
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  height: 30px;
 }
 .portfolioText{
     font-family: 'Marck Script', cursive;
@@ -99,6 +99,43 @@ button {
     transform-origin: 50% 5em;
     box-shadow: 2px 9px 20px 4px #0a0a0aa8;
 }
-
-
+/*ICONS*/
+.contacts{
+  margin-left: 60%;
+}
+.gitHubIcon{
+  width: 60px;
+  cursor: pointer;
+}
+.facebookIcon{
+  width: 55px;
+  cursor: pointer;
+}
+.linkedInIcon{
+  width: 65px;
+  cursor: pointer;
+}
+.contactMe{
+  width: 60px;
+  cursor: pointer;
+}
+.resumeIcon{
+  width: 70px;
+}
+/*MODAL*/
+.modal-header h1{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 30px;
+  
+}
+ .modal-body{
+  font-family: 'ZCOOL XiaoWei', serif;
+  height: 280px;
+ }
+ .modal-body p{
+  font-size: 25px;
+ }
+ .modal-body h2{
+   font-weight: bold;
+ }
  
