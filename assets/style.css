@@ -1,0 +1,104 @@
+body {
+    background-image: url(../assets/apple-watch-desk-equipment-876467.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+}
+.navbar{
+    height: 95px;
+}
+.navbar-nav{
+    margin-left: 70%;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 0px 8px #0a0a0aab;
+}
+.img-thumbnail{
+    height: 400px;
+    margin: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 1px -1px 11px 11px #04040447;
+}
+#firstContainer{
+    margin-top: 90px;
+    background-color: rgba(255, 255, 255, 0.493);
+    height: 800px;
+}
+.text{
+    width: 600px;
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-shadow: 5px 0px 8px #0a0a0a4d;
+
+}
+footer {
+    font-family: 'ZCOOL XiaoWei', serif;
+    background: white;
+    font-size: 20px;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+.portfolioText{
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    margin-top: 5%;
+    text-shadow: 5px 0px 8px #0a0a0aa8;
+}
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  button {
+    position: absolute;
+    left: 20%;
+    top: 60px;
+    height: 100px;
+    width: 350px;
+    background: #efe7e7fa;
+    background: linear-gradient(top, #555, #333);
+    border: 1px wheat solid;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #080707;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    transform-origin: 50% 5em;
+    box-shadow: 2px 9px 20px 4px #0a0a0aa8;
+}
+
+
+ 
