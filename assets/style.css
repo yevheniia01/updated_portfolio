@@ -99,9 +99,12 @@ button {
     transform-origin: 50% 5em;
     box-shadow: 2px 9px 20px 4px #0a0a0aa8;
 }
+a{
+  color: white;
+}
 /*ICONS*/
-.contacts{
-  margin-left: 60%;
+#navbarNavAltMarkup{
+  margin-left: 40%;
 }
 .gitHubIcon{
   width: 60px;
@@ -144,4 +147,251 @@ button {
  .modal-backdrop{
   background: #000000a1;
  }
+ /*CARDS*/
+ .card-title{
+  font-size: 60px;
+  text-shadow: 4px 6px 0px #070707;
+ }
+ #firstRow{
+   margin-left: 5%;
+ }
+ .card{
+   margin: 20px;
+   width: 40%;
+   box-shadow: 4px 5px 13px 4px #000000;
+}
+
+
  
+#back {
+  width: 500px;
+    left: 30%;
+    margin-bottom: 20%;
+    position: sticky;
+}
+ .imgText img{
+  width: 489px;
+ }
+ #trivia{
+  margin-left: 60%;
+ }
+ #gif{
+   margin-left: 60%;
+ }
+ #indexText{
+  text-shadow: 5px 3px 12px #fdf9f9;
+  font-size: 21px;
+ }
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #indexImg{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 50px;
+  }
+  #indexText{
+    width: 390px;
+    float: right;
+    margin-top: 10%;
+    font-size: 19px;
+  }
+  #indexBtn {
+    width: 80%;
+    font-size: 35px;
+}
+  .indexBody{
+    width: 740px;
+  }
+  .modal-backdrop{
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .navbar {
+    width: 100%;
+}
+.card-title{
+  font-size: 29px;
+}
+.imgText{
+ left: 20%;
+}
+#back{
+  left: 15%;
+    width: 440px;
+    font-size: 35px
+}
+.gitHubIcon{
+  width: 40px;
+}
+.facebookIcon{
+  width: 40px;
+}
+.linkedInIcon{
+  width: 40px;
+}
+.resumeIcon{
+  width: 40px;
+}
+.contactMe{
+  width: 40px;
+}
+.contacts{
+  margin: 0px;
+}
+.project{
+
+}
+body{
+  width: 610px;
+}
+#navbarNavAltMarkup{
+  margin-left: 10%;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #indexBtn{
+    font-size: 30px;
+    width: 70%;
+  }
+  .portfolioText{
+    font-size: 30px;
+  }
+  #indexImg{
+    width: 250px;
+    height: 250px;
+  }
+  #indexText{
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .indexBody{
+    width: 768px;
+    height: 1500px;
+  }
+  .modal-backdrop{
+    width: 100%;
+    height: 100%;
+  }
+  .card-title{
+    font-size: 29px;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .contacts{
+
+  }
+  #navbarNavAltMarkup{
+    margin: 0px;
+  }
+  .gitHubIcon{
+    width: 50px;
+  }
+  .facebookIcon{
+    width: 50px;
+  }
+  .linkedInIcon{
+    width: 50px;
+  }
+  .contactMe{
+    width: 50px;
+
+  }
+  .resumeIcon{
+    width: 50px;
+  }
+  #back{
+    left: 18%;
+  }
+  body{
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .modal-backdrop{
+    width: 100%;
+    height: 100%;
+  }
+  #navbarNavAltMarkup{
+    margin-left: 40%;
+  }
+  .indexBody{
+    margin: 0px;
+    width: 1024px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .portfolioText{
+    font-size: 35px;
+    margin-left: 90px;
+  }
+  #indexText{
+    font-size: 23px;
+    margin-top: 10%;
+    margin-left: 15px;
+  }
+  #indexImg{
+    width: 300px;
+    height: 300px;
+  }
+  .indexBody{
+    width: 1260px;
+  }
+  .modal-backdrop{
+    width: 100%;
+    height: 100%;
+  }
+  #navbarNavAltMarkup{
+    margin-left: 40%;
+  }
+  .gitHubIcon{
+    width: 60px;
+    cursor: pointer;
+  }
+  .facebookIcon{
+    width: 55px;
+    cursor: pointer;
+  }
+  .linkedInIcon{
+    width: 65px;
+    cursor: pointer;
+  }
+  .contactMe{
+    width: 60px;
+    cursor: pointer;
+  }
+  .resumeIcon{
+    width: 70px;
+  }
+  .navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 0px 8px #0a0a0aab;
+}
+#back{
+  left: 28%;
+}
+.card-title{
+  margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+}
+
+}
