@@ -1,23 +1,74 @@
 body {
-    background-image: url(../assets/bloom-blossom-flora-612807.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+   
     height: 1100px;
 }
+#first{
+  width: 100%;
+  height: 1500px;
+}
+#portfolioHeader{
+  text-align: center;
+    font-size: 80px;
+    margin: 20px;
+    margin-bottom: 40px;
+    text-shadow: 6px 6px 11px #0b0909b0;
+    font-family: 'Libre Baskerville', serif;
+}
+#portfolioRow{
+background-image: url('./forest-931706_1920.jpg');
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar{
-  height: 70px;
-  border-bottom: 2px black solid;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  z-index: 2;
 }
 .navbar-nav{
-    margin-left: 70%;
-    font-size: 20px;
+  margin-left: 35%
 }
+#mainP{
+  color: white;
+    font-size: 30px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-shadow: 6px 6px 11px #0b0909f7;
+    font-family: 'Libre Baskerville', serif;
+}
+#mainH{
+  margin-top: 20%;
+    color: #f8f7f5;
+    font-size: 70px;
+    margin-left: 20px;
+    text-shadow: 6px 6px 11px #0b0909f7;
+    font-family: 'Libre Baskerville', serif;
+}
+#backColumn{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/Jenna2.jpg);
+    height: 950px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: unset;
+    zoom: 90%;
+    box-shadow: 5px 7px 20px 18px #080707b5;
+
+
+}
+#firstRow{
+  
+}
+
 .navbar-brand{
-    font-family: 'Marck Script', cursive;
+  font-family: 'Libre Baskerville', serif;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 5px 0px 8px #0a0a0aab;
+    color: white;
 }
 .img-thumbnail {
   height: 300px;
@@ -26,11 +77,7 @@ body {
   margin-left: 50px;
   box-shadow: 1px -1px 11px 11px #04040447;
 }
-#firstContainer{
-    margin-top: 90px;
-    background-color: rgba(255, 255, 255, 0.493);
-    height: 800px;
-}
+
 .text{
     width: 600px;
     font-size: 20px;
@@ -48,6 +95,7 @@ footer {
   bottom: 0px;
   width: 100%;
   height: 30px;
+  z-index: 2;
 }
 .portfolioText{
     font-family: 'Marck Script', cursive;
@@ -55,57 +103,12 @@ footer {
     margin-top: 5%;
     text-shadow: 5px 0px 8px #0a0a0aa8;
 }
-button {
-    animation: wiggle 2s linear infinite;
-  }
-  
-  /* Keyframes */
-  @keyframes wiggle {
-    0%, 7% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: rotateZ(-15deg);
-    }
-    20% {
-      transform: rotateZ(10deg);
-    }
-    25% {
-      transform: rotateZ(-10deg);
-    }
-    30% {
-      transform: rotateZ(6deg);
-    }
-    35% {
-      transform: rotateZ(-4deg);
-    }
-    40%, 100% {
-      transform: rotateZ(0);
-    }
-  }
-  button {
-    position: absolute;
-    left: 20%;
-    top: 60px;
-    height: 100px;
-    width: 350px;
-    background: #efe7e7fa;
-    background: linear-gradient(top, #555, #333);
-    border: 1px wheat solid;
-    border-radius: 0 0 0.2em 0.2em;
-    color: #080707;
-    font-family: 'Marck Script', cursive;
-    font-size: 40px;
-    transform-origin: 50% 5em;
-    box-shadow: 2px 9px 20px 4px #0a0a0aa8;
-}
+
 a{
   color: white;
 }
 /*ICONS*/
-#navbarNavAltMarkup{
-  margin-left: 40%;
-}
+
 .gitHubIcon{
   width: 60px;
   cursor: pointer;
@@ -152,9 +155,7 @@ a{
   font-size: 60px;
   text-shadow: 4px 6px 0px #070707;
  }
- #firstRow{
-   margin-left: 5%;
- }
+ 
  .card{
    margin: 20px;
    width: 40%;
@@ -185,6 +186,16 @@ a{
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  #secondPortCol{
+    padding-right: 80px;
+  }
+  .portfHead{
+    display: none;
+  }
+  #first{
+    width: 934px;
+    padding: 0px;
+  }
   #indexImg{
     width: 250px;
     height: 250px;
@@ -201,9 +212,7 @@ a{
     width: 80%;
     font-size: 35px;
 }
-  .indexBody{
-    width: 740px;
-  }
+  
   .modal-backdrop{
     width: 100%;
     height: 100%;
@@ -211,9 +220,7 @@ a{
   .navbar-brand{
     font-size: 30px;
   }
-  .navbar {
-    width: 100%;
-}
+  
 .card-title{
   font-size: 29px;
 }
@@ -249,9 +256,7 @@ a{
 body{
   width: 610px;
 }
-#navbarNavAltMarkup{
-  margin-left: 10%;
-}
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -276,10 +281,7 @@ body{
     margin-top: 30px;
     font-size: 18px;
   }
-  .indexBody{
-    width: 768px;
-    height: 1500px;
-  }
+  
   .modal-backdrop{
     width: 100%;
     height: 100%;
@@ -293,9 +295,7 @@ body{
   .contacts{
 
   }
-  #navbarNavAltMarkup{
-    margin: 0px;
-  }
+  
   .gitHubIcon{
     width: 50px;
   }
@@ -326,17 +326,33 @@ body{
     width: 100%;
     height: 100%;
   }
-  #navbarNavAltMarkup{
-    margin-left: 40%;
+  figure.snip1421{
+     height: 12%;
   }
-  .indexBody{
-    margin: 0px;
-    width: 1024px;
+  .portfolio{
+    padding-right: 10%;
   }
+  #mainH{
+    font-size: 40px;
+    margin-top: 40%;
+
+  }
+  #mainP{
+
+  }
+  
+  
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
+  .navbar-nav{
+    margin-left: 60%;
+  }
+  figure.snip1421 {
+    height: 20%;
+}
   .portfolioText{
     font-size: 35px;
     margin-left: 90px;
@@ -350,34 +366,36 @@ body{
     width: 300px;
     height: 300px;
   }
-  .indexBody{
-    width: 1260px;
-  }
+  
   .modal-backdrop{
     width: 100%;
     height: 100%;
   }
-  #navbarNavAltMarkup{
-    margin-left: 40%;
-  }
+  
   .gitHubIcon{
-    width: 60px;
+    margin-top: 8%;
+    width: 55px;
     cursor: pointer;
   }
   .facebookIcon{
+    margin-top: 8%;
     width: 55px;
     cursor: pointer;
   }
   .linkedInIcon{
-    width: 65px;
+    margin-top: 8%;
+    width: 55px;
     cursor: pointer;
   }
   .contactMe{
-    width: 60px;
+    margin-top: 8%;
+    width: 55px;
     cursor: pointer;
   }
   .resumeIcon{
-    width: 70px;
+    margin-top: 8%;
+    width: 55px;
+    cursor: pointer;
   }
   .navbar-brand{
     font-family: 'Marck Script', cursive;
@@ -395,3 +413,264 @@ body{
 }
 
 }
+@media only screen and (min-width: 1400px) {
+  .navbar-nav{
+    margin-left: 70%;
+  }
+  #mainH{
+    font-size: 40px;
+    margin-top: 30%;
+
+  }
+}
+@media only screen and (min-width: 1900px){
+  .navbar-nav{
+    margin-left: 80%;
+  }
+  #mainH{
+  margin-top: 20%;
+    color: #f8f7f5;
+    font-size: 70px;
+    margin-left: 20px;
+    text-shadow: 6px 6px 11px #0b0909f7;
+  }
+  figure.snip1421{
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 750px;
+    max-height: 400px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 8%;
+    box-shadow: 5px 5px 20px 4px #0d0c0c;
+    margin-bottom: 40px;
+  }
+}
+
+/*PORTFOLIO*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1503 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 750px;
+    max-height: 400px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 8%;
+    box-shadow: 5px 5px 20px 4px #0d0c0c;
+    margin-bottom: 40px;
+}
+
+.snip1503 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1503 img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.snip1503 figcaption {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  z-index: 1;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.snip1503 h3 {
+  padding: 7px 15px;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translate(0%, -100%);
+  transform: translate(0%, -100%);
+  color: rgba(255, 255, 255, 0);
+}
+
+.snip1503 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1503:hover > img,
+.snip1503.hover > img {
+  opacity: 0.5;
+}
+
+.snip1503:hover h3,
+.snip1503.hover h3 {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  color: #ffffff;
+}
+figure.snip1503 img {
+  opacity: 1;
+  width: 100%;
+  height: 300px;
+}
+/*
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,900);
+figure.snip1421 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 750px;
+    max-height: 400px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 8%;
+    box-shadow: 5px 5px 20px 4px #0d0c0c;
+    margin-bottom: 40px;
+}
+figure.snip1421 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1421 img {
+  opacity: 1;
+  width: 100%;
+  height: 396px;
+}
+figure.snip1421:after,
+figure.snip1421:before,
+figure.snip1421 figcaption:after,
+figure.snip1421 figcaption:before {
+  background: #0a0a0a;
+  width: 25%;
+  position: absolute;
+  content: '';
+  opacity: 0;
+  -webkit-transition: all 0.3s steps(4);
+  transition: all 0.3s steps(4);
+  z-index: 1;
+  top: 50%;
+  bottom: 50%;
+}
+figure.snip1421:before {
+  left: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip1421:after {
+  left: 25%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1421 figcaption:before {
+  left: 50%;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  z-index: -1;
+}
+figure.snip1421 figcaption:after {
+  left: 75%;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  z-index: -1;
+}
+figure.snip1421 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 30px;
+}
+figure.snip1421 h2,
+figure.snip1421 p,
+figure.snip1421 .icons {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+figure.snip1421 h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+figure.snip1421 p {
+  font-weight: 300;
+}
+figure.snip1421 .icons {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+figure.snip1421 i {
+  padding: 0px 10px;
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.8;
+}
+figure.snip1421 i:hover {
+  opacity: 1;
+}
+figure.snip1421:hover:after,
+figure.snip1421.hover:after,
+figure.snip1421:hover:before,
+figure.snip1421.hover:before,
+figure.snip1421:hover figcaption:after,
+figure.snip1421.hover figcaption:after,
+figure.snip1421:hover figcaption:before,
+figure.snip1421.hover figcaption:before {
+  top: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+figure.snip1421:hover figcaption h2,
+figure.snip1421.hover figcaption h2,
+figure.snip1421:hover figcaption p,
+figure.snip1421.hover figcaption p,
+figure.snip1421:hover figcaption .icons,
+figure.snip1421.hover figcaption .icons {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+figure.snip1421:hover figcaption h2,
+figure.snip1421.hover figcaption h2,
+figure.snip1421:hover figcaption .icons,
+figure.snip1421.hover figcaption .icons {
+  opacity: 1;
+}
+figure.snip1421:hover figcaption p,
+figure.snip1421.hover figcaption p {
+  opacity: 0.7;
+}
+*/
